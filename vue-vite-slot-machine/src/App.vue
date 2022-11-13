@@ -3,10 +3,12 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import CustomSorting from './components/CustomSorting.vue'
 import FisherYatesSorting from './components/FisherYatesSorting.vue'
+import IndexRepeatPrevention from './components/IndexRepeatPrevention.vue'
 </script>
 
 <template>
-  <CustomSorting />
+  <!-- <CustomSorting /> -->
+  <IndexRepeatPrevention />
   <!-- <FisherYatesSorting /> -->
 </template>
 
